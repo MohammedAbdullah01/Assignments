@@ -1,0 +1,44 @@
+/*
+	Insert With INNER JOIN
+*/
+
+INSERT INTO TableName ta1 (Column1 , Column2)
+SELECT ta2.Column3  , ta2.Column4
+FROM Table2 ta2
+INNER JOIN Table3 ta3 
+ON ta2.Primary_Key = Ta3.Foreign_KEY
+
+AND Condation
+
+
+------------------------------------
+
+
+/*
+	DELETE With INNER JOIN
+*/
+
+DELETE FROM TableName ta1
+INNER JOIN TableName ta2
+ON ta2.Primary_key = ta1.Foreign_Key
+AND
+Condation 1
+AND
+Condation 2
+
+
+
+
+
+alter function Get_Student_and_DepartmentName_By_Address(@Address varchar(20) )
+
+returns table
+as
+
+return 
+(
+	select student.* , department.dep_name 
+	from Student inner join department
+	on department.dep_id = student.st_id
+	where st_address = @Address 
+)
