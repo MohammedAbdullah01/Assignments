@@ -2,45 +2,38 @@
 
 This repository contains a collection of assignments focusing on T-SQL (Transact-SQL) concepts and techniques. These assignments were completed as part of a dedicated training program, showcasing practical database management and query development skills.
 
-## Repository Structure
+### Queries and Functions
 
-The repository is organized into the following sections:
+#### Queries
 
-- **Basic Queries**: Covers fundamental SQL queries, including SELECT, INSERT, UPDATE, DELETE, and WHERE clauses.
-- **Joins and Subqueries**: Assignments exploring INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, and nested subqueries.
-- **Functions and Procedures**: Examples of creating and using stored procedures, user-defined functions, and system functions.
-- **Views and Triggers**: Demonstrates the creation and use of views and triggers for database optimization and automation.
-- **Advanced Concepts**: Includes assignments on indexing, transaction management, error handling, and dynamic SQL.
+1. Retrieve full names of employees where first name length is greater than 3.
+2. Count books in the "programming" category.
+3. Count books from the publisher "HarperCollins".
+4. Retrieve users who have overdue borrowed books.
+5. Retrieve book titles along with their authors.
+6. Retrieve users with names containing letter 'A' (case-sensitive and insensitive versions).
+7. Retrieve the user who borrowed the most books.
+8. Calculate total borrowing amount per user.
+9. Retrieve the category with the lowest borrowing amount.
+10. Retrieve either email, address, or date of birth of employees.
+11. Count books per category.
+12. Retrieve book IDs that are not on Floor 1 and not on Shelf A1.
+13. Retrieve number of employees per floor.
+14. Retrieve book titles borrowed within a specific date range.
+15. Retrieve employees and their supervisors.
+16. Retrieve employees with either Salary or Bonus.
+17. Retrieve maximum and minimum salary.
 
-## Key Features
+#### Functions
 
-- **Real-World Scenarios**: Assignments simulate real-world database challenges to enhance problem-solving skills.
-- **Structured and Modular Approach**: Clear separation of assignments by topic for easy navigation and learning.
-- **Detailed Explanations**: Inline comments and README files explaining the purpose and functionality of each query.
-
-## Technologies Used
-
-- **Database Management System**: Microsoft SQL Server
-- **Programming Language**: T-SQL
-- **Tools**: SQL Server Management Studio (SSMS)
-
-## Assignments Overview
-
-Here is an overview of some assignments included in this repository:
-
-1. **Employee Management System**: Queries to manage employee records, including salary calculations and performance metrics.
-2. **E-Commerce Database**: Examples of managing products, customers, orders, and inventory using SQL queries.
-3. **Banking Application**: Demonstrates account management, transaction tracking, and interest calculation using T-SQL.
-4. **School Database**: Assignments involving student records, course enrollment, and grade management.
-5. **Error Handling in SQL**: Examples of TRY...CATCH blocks and transaction handling for robust query execution.
+18. Function to check if a number is even or odd.
+19. Function to retrieve books of a specific category.
+20. Function to retrieve user borrowing data based on phone number.
+21. Function to check for duplicate usernames.
+22. Function to format dates.
 
 ---
 
-### Author
+This script sets up a database called `Exam`, defines tables with appropriate constraints, and provides SQL queries and functions to manage the data effectively.
 
-Mohammed Abdullah  
-Junior Software Engineer | Database Enthusiast
 
----
-
-Thank you for exploring this repository! I hope you find these assignments helpful for mastering T-SQL.
